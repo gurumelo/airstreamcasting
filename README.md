@@ -16,3 +16,6 @@ nano confi.json #Establecer una contraseña
 npm install
 node index.js
 ```
+
+![servidorfoto](https://raw.githubusercontent.com/gurumelo/airstreamcasting/master/cordova/capturas/suna.gif)
+![servidorgraficas](https://raw.githubusercontent.com/gurumelo/airstreamcasting/master/cordova/capturas/sdos.gif)
