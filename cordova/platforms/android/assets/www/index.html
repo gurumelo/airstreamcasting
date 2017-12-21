@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <title>AirGifCasting</title>
+    </head>
+    <body>
+
+      <div id="capa">
+        <div id="icobluetooth">
+          <i class="fa fa-bluetooth"></i>
+        </div>
+
+        <div id="cajaactualizar">
+          <div id="actualizar"><span class="lospuntos">.</span>Actualizar</div>
+        </div>
+        <div id="cajacargando">
+          <div id="cargando"><img src="img/gatocargando.gif"></div>
+        </div>
+
+        <div id="log" class="invi"></div>
+
+        <div id="cajaemparejar">
+          <div id="emparejar">Emparejar AirBeam<span class="lospuntos">.</span></div>
+        </div>
+
+        <div id="icoserver">
+          <i class="fa fa-server"></i>
+        </div>
+
+        <div class="formulario">
+          <input id="servidor" placeholder="Servidor" type="url" required>
+        </div>
+        <div class="formulario">
+          <input id="contrasena" placeholder="Contraseña" type="password" required>
+        </div>
+      </div>
+
+      <div id="capacam" class="invi">
+        <div id="c"><span id="cv">0</span><span class="peq">ºC</span></div>
+        <div id="h"><span id="hv">0</span><span class="peq">%</span></div>
+        <div id="pm"><span id="pmv">0</span><span class="peq s">ug/m³</span></div>
+        <div id="contienecirculo"><div id="circulo"></div></div>
+        <div id="logdatos"></div>
+      </div>
+
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

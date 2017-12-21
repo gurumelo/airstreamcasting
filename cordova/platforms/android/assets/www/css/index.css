@@ -1,0 +1,227 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+html{
+ height:100%;
+ min-height:100%;
+}
+.invi {
+  display: none;
+}
+body {
+  -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+  font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size:20px;
+  min-height:100%;
+  margin:0px;
+  padding:0px;
+  width:100%;
+  text-align: center;
+  background-color: #000;
+  background-image: url(../img/fondo.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: #fff;
+}
+#capa {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+  overflow: scroll;
+}
+#icobluetooth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #06ddda;
+  border: 1px solid #000;
+  background-color: rgba(0,0,0,0.8);
+  border-bottom-right-radius: 10px;
+  padding: 5px 10px 10px 5px;
+}
+#icoserver{
+  text-align: left;
+  margin: 20px 0px 15px 0px;
+}
+#icoserver i {
+  color: #06ddda;
+  border: 1px solid #000;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 0 10px 10px 0;
+  padding: 10px 10px 10px 5px;
+}
+#cajaactualizar {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+#actualizar {
+  display: inline;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px 15px 18px;
+  font-weight: bolder;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#log {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#nohayairbeam {
+  display: inline-flex;
+  width: 50%;
+  white-space: nowrap;
+  padding: 5px;
+  color: #343434;
+  background: #fff;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+#nohayairbeam span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#cargando {
+  display:inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 75px;
+}
+#cargando img {
+  vertical-align: middle;
+}
+#emparejar {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 10px 18px 15px 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.lospuntos {
+  color: #06ddda;
+}
+.fondonegro {
+  background: #000;
+  padding: 5px 10px 5px 10px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.nohay {
+  text-align: left;
+  padding: 5px;
+}
+.con {
+  padding: 5px;
+  background: #000;
+  font-weight: bolder;
+}
+.devicename {
+  padding: 10px 1px 5px 5px;
+  background: #fff;
+  color: #343434;
+  font-size: 15px;
+}
+#c {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  border: 1px solid #000;
+  background-color: rgba(0,0,0,0.8);
+  border-bottom-right-radius: 150px;
+  font-size: 25px;
+  padding: 5px 10px 10px 10px;
+  font-weight: bolder;
+}
+#h {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  border: 1px solid #000;
+  background-color: rgba(0,0,0,0.8);
+  border-bottom-left-radius: 150px;
+  font-size: 25px;
+  padding: 5px 5px 10px 15px;
+  font-weight: bolder;
+}
+#pm {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  border: 1px solid #000;
+  background-color: rgba(0,0,0,0.8);
+  border-top-right-radius: 150px;
+  font-size: 35px;
+  padding: 5px 10px 0px 4px;
+  font-weight: bolder;
+}
+.peq {
+  font-size: 10px;
+  font-weight: lighter;
+  vertical-align: super;
+}
+.s {
+  vertical-align: unset;
+}
+#contienecirculo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+#circulo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.formulario {
+  margin: 10px 0;
+}
+input {
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+  border: none;
+  padding: 17px 0;
+  border-bottom: solid 1px #06ddda;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #06ddda 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #06ddda 4%);
+  background-position: -300px 0;
+  background-size: 300px 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+input:focus, input:valid {
+ box-shadow: none;
+ outline: none;
+ background-position: 0 0;
+}
+input::-webkit-input-placeholder {
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+ color: #06ddda;
+ font-size: 12px;
+ -webkit-transform: translateY(-15px);
+ transform: translateY(-15px);
+ visibility: visible !important;
+}
