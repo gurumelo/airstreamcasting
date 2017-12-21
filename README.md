@@ -2,6 +2,9 @@
 
 ### Cliente android
 
+![conecta](https://raw.githubusercontent.com/gurumelo/airstreamcasting/master/cordova/capturas/una.png)
+![emite](https://raw.githubusercontent.com/gurumelo/airstreamcasting/master/cordova/capturas/dos.png)
+
 Se conecta por bluetooth a AirBeam y envía foto, temperatura, humedad y PM 2.5; sin intervención, cada 10 segundos a
 
 ### Servidor
